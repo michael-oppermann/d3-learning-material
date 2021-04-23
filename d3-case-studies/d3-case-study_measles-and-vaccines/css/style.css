@@ -1,0 +1,95 @@
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+  padding: 30px;
+}
+
+.vis {
+  position: relative
+}
+.vis .caption {
+  position: absolute;
+  top: 0;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+/* Marks */
+.h-label {
+  font-size: 11px;
+  fill: #333;
+}
+.h-cell {
+  shape-rendering: crispEdges;
+}
+.h-cell:hover {
+  transition: stroke 200ms ease-in-out;
+  stroke: #333;
+}
+.h-cell-na {
+  stroke: #ddd;
+  pointer-events: none;
+}
+
+/* Annotations */
+.vaccine-line {
+  stroke: #333;
+  shape-rendering: crispedges;
+  stroke-width: 2px;
+}
+.vaccine-label {
+  fill: #333;
+  font-size: 12px;
+}
+
+/* Axes */
+.axis line {
+  fill: none;
+  stroke: #ddd;
+  shape-rendering: crispEdges;
+}
+.axis text {
+  font-size: 13px;
+  fill: #6b6b6b;
+}
+.axis-title {
+  font-size: 13px;
+  fill: #888;
+}
+.axis path {
+  stroke: #ddd;
+}
+.axis.legend-axis text {
+  font-size: 11px;
+}
+
+/* Tooltip */
+#tooltip {
+  position: absolute;
+  display: none;
+  background: #fff;
+  box-shadow: 3px 3px 3px 0px rgb(92 92 92 / 0.5);
+  border: 1px solid #ddd;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 8px;
+  min-width: 100px;
+  color: #333;
+}
+.tooltip-title {
+  color: #000;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+/* Misc */
+.case-study {
+  background: #f7f7f7;
+  padding: 15px;
+  margin: 30px 0;
+  max-width: 1100px;
+  font-weight: 400;
+}

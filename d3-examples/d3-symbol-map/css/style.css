@@ -1,0 +1,46 @@
+body {
+  font-family: Helvetica, sans-serif;
+  background: #fafcff;
+}
+
+.geo-path {
+  fill: #cfdecd;
+}
+.geo-boundary-path {
+  stroke: #fff;
+  fill: none;
+  stroke-width: 0.4;
+}
+.geo-symbol {
+  fill: #3e5e79;
+  fill-opacity: 0.9;
+}
+.geo-symbol:hover {
+  fill-opacity: 1;
+}
+.geo-label {
+  font-size: .7rem;
+  font-weight: 500;
+}
+.geo-visitor-label {
+  font-weight: 700;
+  font-size: .75rem;
+}
+
+#tooltip {
+  position: absolute;
+  display: none;
+  background: #fff;
+  box-shadow: 3px 3px 3px 0px rgb(92 92 92 / 0.5);
+  border: 1px solid #ddd;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 8px;
+  min-width: 160px;
+  color: #333;
+}
+.tooltip-title {
+  color: #000;
+  font-size: 14px;
+  font-weight: 600;
+}

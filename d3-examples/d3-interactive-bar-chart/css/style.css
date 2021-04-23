@@ -1,0 +1,67 @@
+body {
+  padding: 30px;
+  background: #f8f8f8;
+}
+.container {
+  width: 740px;
+  margin: 0 auto;
+}
+#footer {
+  font-size: 11px;
+  display: flex;
+}
+#footer .footer-col {
+  flex: 1;
+}
+h1 {
+  font-family: 'Lora', serif;
+  font-size: 1.4rem;
+}
+.bar {
+  fill: #f38874;
+  shape-rendering: crispEdges;
+}
+.bar:hover {
+  fill: #c15f45;
+  transition: fill ease-in-out 200ms;
+}
+.axis text {
+  fill: #666;
+  font-size: 12px;
+}
+.axis path {
+  shape-rendering: crispEdges;
+  stroke: #888;
+}
+.y-axis path {
+  display: none;
+}
+.axis line {
+  display: none;
+}
+.btn {
+  font-size: 11px;
+  color: #adadad;
+}
+#sorting:hover, #sorting:focus {
+  text-decoration: none;
+  box-shadow: none;
+}
+#sorting img {
+  opacity: 0.8;
+}
+#tooltip {
+  position: absolute;
+  opacity: 0;
+  background: #fff;
+  box-shadow: 2px 2px 3px 0px rgb(92 92 92 / 0.5);
+  border: 1px solid #ddd;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 2px 8px;
+}
+.tooltip-label {
+  font-weight: 500;
+  font-size: 10px;
+  color: #888;
+}

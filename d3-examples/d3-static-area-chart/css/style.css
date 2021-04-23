@@ -1,0 +1,48 @@
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 13px;
+  padding: 30px;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+.source {
+  margin-top: 40px;
+  font-size: 10px;
+  color: #888;
+}
+.source a {
+  color: #888;
+}
+
+/* Axes */
+.axis line {
+  fill: none;
+  stroke: #8693a0;
+  shape-rendering: crispEdges;
+}
+.axis text {
+  font-size: 13px;
+  fill: #6b6b6b;
+}
+.axis-title {
+  font-size: 13px;
+  fill: #888;
+}
+.x-axis .domain {
+  stroke: #8693a0;
+}
+.y-axis .domain {
+  display: none;
+}
+
+.chart-area {
+  fill: #e9eff5;
+}
+.chart-line {
+  fill: none;
+  stroke: #517390;
+  stroke-width: 2px;
+}

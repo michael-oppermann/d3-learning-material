@@ -1,0 +1,23 @@
+body {
+	background: #f7f7f7;
+	padding: 30px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+}
+
+h1 {
+	font-weight: 500;
+	font-size: 1.2rem;
+	color: #84644B;
+	margin-top: 0;
+}
+
+.d3-chart .city-label {
+	font-size: 11px;
+	font-weight: 400;
+	text-anchor: middle;
+}
+
+.d3-chart circle {
+	fill: #AB5916;
+}

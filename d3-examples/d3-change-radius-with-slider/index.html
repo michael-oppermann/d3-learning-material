@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Use input slider to change radius</title>
+    <link rel="icon" href="data:;base64,iVBORwOKGO=" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- HTML form -->
+    <div>
+        <label for="radius-slider">Radius: <span id="radius-value">60</span></label>
+        <input type="range" min="1" value="60" max="80" id="radius-slider">
+    </div>
+
+    <!-- Empty SVG drawing area -->
+    <svg id="chart" width="200" height="200"></svg>
+    
+    <script src="js/d3.v6.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

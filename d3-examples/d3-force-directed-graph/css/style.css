@@ -1,0 +1,23 @@
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 13px;
+  padding: 30px;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 1.2rem;
+}
+
+.source {
+  font-size: 10px;
+  color: #888;
+}
+.source a {
+  color: #888;
+}
+
+
+line {
+  stroke: #ddd;
+}

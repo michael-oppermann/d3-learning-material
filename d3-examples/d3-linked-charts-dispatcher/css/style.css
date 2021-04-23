@@ -1,0 +1,93 @@
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 13px;
+  padding: 30px;
+  background: #f7f7f7;
+}
+
+.container {
+  display: flex;
+}
+
+.margin-right {
+  margin-right: 30px;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+.source {
+  margin-top: 30px;
+  font-size: 10px;
+  color: #888;
+}
+.source a {
+  color: #888;
+}
+
+/* Marks */
+.point:hover {
+  stroke: #333;
+}
+.bar {
+  shape-rendering: crispEdges;
+}
+.bar:hover {
+  stroke: #777;
+}
+.bar.active {
+  stroke: #000;
+  stroke-width: 2px;
+}
+
+/* Axes */
+.axis line {
+  fill: none;
+  stroke: #ddd;
+  shape-rendering: crispEdges;
+}
+.axis text {
+  font-size: 13px;
+  fill: #6b6b6b;
+}
+.axis-title {
+  font-size: 13px;
+  fill: #888;
+}
+.y-axis .tick:first-child line {
+  stroke: #b1b1b1;
+}
+.y-axis .tick:first-child text {
+  display: none;
+}
+.x-axis .tick:first-child line {
+  display: none;
+}
+.axis path {
+  display: none;
+}
+
+
+/* Tooltip */
+#tooltip {
+  position: absolute;
+  display: none;
+  background: #fff;
+  box-shadow: 3px 3px 3px 0px rgb(92 92 92 / 0.5);
+  border: 1px solid #ddd;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 8px;
+  min-width: 160px;
+  color: #333;
+}
+.tooltip-title {
+  color: #000;
+  font-size: 14px;
+  font-weight: 600;
+}
+#tooltip ul {
+  margin: 5px 0 0 0;
+  padding-left: 20px;
+}

@@ -1,0 +1,59 @@
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 13px;
+  padding: 30px;
+}
+
+.container {
+  display: flex;
+}
+.col-left {
+  width: 350px;
+  margin-right: 45px;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+.control-bar {
+  text-align: right;
+}
+
+.source {
+  margin-top: 20px;
+  font-size: 10px;
+  color: #888;
+}
+.source a {
+  color: #888;
+}
+
+
+/* Chart */
+path.area-path {
+  fill-opacity: 0.7;
+}
+
+/* Axes */
+.axis line {
+  fill: none;
+  stroke: #cac8c8;
+  shape-rendering: crispEdges;
+  stroke-dasharray: 3 2;
+  stroke-width: 0.5;
+}
+.axis text {
+  font-size: .7rem;
+  fill: #6b6b6b;
+}
+.axis-label {
+  font-size: .75rem;
+  fill: #333;
+}
+.y-axis .domain, .x-axis .domain {
+  display: none;
+}
+.y-axis .tick:first-child line {
+  display: none !important;
+}

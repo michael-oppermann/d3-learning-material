@@ -1,0 +1,44 @@
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  background: #f7f7f7;
+}
+
+.page {
+  margin: 2rem auto;
+  max-width: 50rem;
+}
+
+.container {
+  position: relative;
+  margin-bottom: 100px;
+}
+
+#vis {
+  position: fixed;
+  width: 400px;
+}
+
+#prose {
+  margin-left: 400px;
+}
+#prose .step {
+  height: 500px;
+}
+
+.count {
+  padding: 0px 4px;
+  background: #efe9e9;
+  font-weight: 600;
+  border-radius: 8px;
+  margin: 0 4px;
+}
+
+.step {
+  font-size: 1.2rem;
+}
+
+.chart-label {
+  font-size: .7rem;
+}

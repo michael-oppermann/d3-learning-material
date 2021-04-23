@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Scrollytelling using D3 and Waypoints</title>
+    <link rel="icon" href="data:;base64,iVBORwOKGO=" />
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body> 
+    <div class="page">
+        <h1>A Hiker's Journal</h1>
+
+        <p>This scrollytelling example is based on the JS libraries D3 and Waypoints.</p>
+
+        <div class="container">
+            <div id="vis"></div>
+            <div id="prose">
+                <div class="step" id="step0">You have completed <span class="count" id="hikes-count"></span> hikes.</div>
+                <div class="step" id="step1"><span class="count" id="easy-hikes-count"></span> hikes are rated as easy.</div>
+                <div class="step" id="step2"><span class="count" id="difficult-hikes-count"></span> hikes are rated as difficult.</div>
+                <div class="step" id="step3">The longest hike was <i><span id="max-duration-trail"></span></i><br>(<span class="count" id="max-duration"></span> hours).</div>
+                <div class="step" id="step4">The top 10 trails with the longest distance.</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/d3.v6.min.js"></script>
+    <script src="js/noframework.waypoints.min.js"></script>
+    <script src="js/scrollerVis.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

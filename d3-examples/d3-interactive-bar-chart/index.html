@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>D3 Interactive Bar Chart</title>
+    <link rel="icon" href="data:;base64,iVBORwOKGO=" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>The Largest Population Centres in Canada</h1>
+        
+        <svg id="chart"></svg>
+
+        <div id="footer">
+            <div class="footer-col">
+                <button type="button" class="btn btn-link btn-sm" id="sorting">
+                    <img src="images/sort-down.svg" alt="" width="14" height="14" title="Sort"> Reverse order
+                </button>
+            </div>
+            <div class="footer-col text-right">
+                <a href="https://www12.statcan.gc.ca/census-recensement/2016/dp-pd/hlt-fst/pd-pl/Table.cfm" class="btn btn-link btn-sm">Source: statcan.gc.ca</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="tooltip"></div>
+    
+    <script src="js/d3.v6.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/barchart.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

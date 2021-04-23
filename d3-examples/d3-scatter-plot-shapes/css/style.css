@@ -1,0 +1,77 @@
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 13px;
+  padding: 30px;
+  background: #f7f7f7;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+.source {
+  font-size: 10px;
+  color: #888;
+}
+.source a {
+  color: #888;
+}
+
+path.symbol {
+  stroke: #a7a6a6;
+  stroke-width: 0.4;
+  fill-opacity: 0.7;
+}
+
+/* Axes */
+.axis line {
+  fill: none;
+  stroke: #ddd;
+  shape-rendering: crispEdges;
+}
+.axis text {
+  font-size: 13px;
+  fill: #6b6b6b;
+}
+.axis-title {
+  font-size: 13px;
+  fill: #888;
+}
+.y-axis .tick:first-child line {
+  stroke: #b1b1b1;
+}
+.y-axis .tick:first-child text {
+  display: none;
+}
+.x-axis .tick:first-child line {
+  display: none;
+}
+.axis path {
+  display: none;
+}
+
+/* Legend */
+.legend {
+  margin: 20px 0;
+  list-style: none;
+  padding: 0;
+}
+.legend li {
+  display: inline-block;
+  margin: 0 20px 0 0;
+}
+.legend-e {
+  width: 12px;
+  height: 12px;
+  margin-right: 3px;
+  display: inline-block;
+}
+.legend-e.easy {
+  background: #d3eecd;
+}
+.legend-e.intermediate {
+  background: #7bc77e;
+}
+.legend-e.difficult {
+  background: #2a8d46;
+}

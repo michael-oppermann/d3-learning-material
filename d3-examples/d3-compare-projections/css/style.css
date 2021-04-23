@@ -1,0 +1,19 @@
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 13px;
+  padding: 30px;
+  background: #f7f7f7;
+}
+
+.container {
+  display: flex;
+}
+
+.geo-path {
+  fill: #383838;
+}
+.geo-boundary-path {
+  stroke: #fff;
+  fill: none;
+  stroke-width: 1;
+}
