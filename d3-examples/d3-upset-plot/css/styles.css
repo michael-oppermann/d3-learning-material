@@ -1,0 +1,39 @@
+body {
+  margin: 25px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 15px;
+}
+
+.bar {
+  fill: #50887f;
+}
+.intersection-size .bar:hover {
+  fill: #2b524c;
+  transition: fill 250ms ease-in-out;
+}
+
+.combination circle {
+  fill: #e0e0e0;
+}
+.combination circle.member {
+  fill: #50887f;
+}
+.combination .connector {
+  stroke: #50887f;
+  stroke-width: 3px;
+}
+
+.axis-title {
+  font-size: .8rem;
+}
+
+#tooltip {
+  position: absolute;
+  opacity: 0;
+  background: #fff;
+  box-shadow: 2px 2px 3px 0px rgb(92 92 92 / 0.5);
+  border: 1px solid #ddd;
+  font-size: .8rem;
+  font-weight: 600;
+  padding: 2px 8px;
+}

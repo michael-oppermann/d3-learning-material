@@ -1,0 +1,90 @@
+{
+  "combinations": [
+    {
+      "combinationId": "a",
+      "setMembership": [],
+      "values": ["Maggie", "Patty Bouvier", "Selma Bouvier"]
+    },
+    {
+      "combinationId": "b",
+      "setMembership": ["School"],
+      "values": ["Lisa"]
+    },
+    {
+      "combinationId": "c",
+      "setMembership": ["Blue Hair"],
+      "values": ["Marge", "Jacqueline Bouvier"]
+    },
+    {
+      "combinationId": "d",
+      "setMembership": ["Male"],
+      "values": ["Ned", "Grampa", "Kent Brockman"]
+    },
+    {
+      "combinationId": "e",
+      "setMembership": ["School", "Male"],
+      "values": ["Bart", "Ralph", "Martin Prince"]
+    },
+    {
+      "combinationId": "f",
+      "setMembership": ["Duff Fan", "Male"],
+      "values": ["Barney", "Mo"]
+    },
+    {
+      "combinationId": "g",
+      "setMembership": ["Evil", "Male"],
+      "values": ["Sideshow Bob", "Fat Tony"]
+    },
+    {
+      "combinationId": "h",
+      "setMembership": ["School", "Blue Hair", "Male"],
+      "values": ["Milhouse"]
+    },
+    {
+      "combinationId": "i",
+      "setMembership": ["School", "Evil", "Male"],
+      "values": ["Nelson"]
+    },
+    {
+      "combinationId": "j",
+      "setMembership": ["Duff Fan", "Evil", "Male"],
+      "values": ["Krusty"]
+    },
+    {
+      "combinationId": "k",
+      "setMembership": ["Duff Fan", "Male", "Power Plant"],
+      "values": ["Homer", "Lenny Leonard", "Carl Carlson"]
+    },
+    {
+      "combinationId": "l",
+      "setMembership": ["Evil", "Male", "Power Plant"],
+      "values": ["Mr. Burns", "Smithers"]
+    }
+  ],
+  "sets": [
+    {
+      "setId": "Power Plant",
+      "size": 5
+    },
+    {
+      "setId": "Male",
+      "size": 18
+    },
+    {
+      "setId": "Evil",
+      "size": 6
+    },
+    {
+      "setId": "Duff Fan",
+      "size": 6
+    },
+    {
+      "setId": "Blue Hair",
+      "size": 3
+    },
+    {
+      "setId": "School",
+      "size": 6
+    }
+  ]
+}
